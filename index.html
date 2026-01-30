@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tradutor</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Tradutor de Texto</h1>
+        <textarea id="inputText" placeholder="Digite o texto aqui..."></textarea>
+
+        <div class="languages">
+            <select id="originlanguageSelect">
+                <option value="en">Inglês</option>
+                <option value="es">Espanhol</option>
+                <option value="fr">Francês</option>
+                <option value="de">Alemão</option>
+                <option value="it">Italiano</option>
+                <option value="pt-BR" selected>Português - BR</option>
+            </select>
+            <div class="arrow"><img src="./img/swap.png" alt="" srcset=""
+                    height="25px"></div>
+            <select id="destlanguageSelect">
+                <option value="en">Inglês</option>
+                <option value="es">Espanhol</option>
+                <option value="fr">Francês</option>
+                <option value="de">Alemão</option>
+                <option value="it">Italiano</option>
+                <option value="pt-BR">Português - BR</option>
+            </select>
+
+
+            <button class="translateButton" title="traduzir texto" ><img src="./img/translate1.png" alt="" srcset=""
+                    height="25px"></button>
+            <button class="mictranslateButton" title="Falar texto"><img src="./img/mic.png" alt="" srcset=""
+                    height="25px"></button>
+        </div>
+        <h2>Texto Traduzido:</h2>
+        <div id="outputText" class="output"></div>
+        <div class="speach-traslate">
+            <button class="mictranslatespeachButton" title="Reproduzir texto falado"><img src="./img/mic.png" alt="" srcset=""
+                    height="25px"></button>
+        </div>
+    </div>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>

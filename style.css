@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./img/mapa.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 450px;
+    width: 600px;
+    background-color: rgba(53, 52, 52, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+
+}
+
+#inputText{
+    background-color: #000000f1;
+    width:100%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.languages{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+button{
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: #000000f1;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+select{
+    padding: 10px;
+    width: 100%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+.arrow{
+    align-self: center;
+    font-size: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#outputText{
+    background-color: #000000f1;
+    width:100%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    font-size: 16px;
+    min-height: 100px;
+}
+
+.speach-traslate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
